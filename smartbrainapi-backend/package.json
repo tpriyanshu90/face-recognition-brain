@@ -1,0 +1,24 @@
+{
+  "name": "smartbrainapi",
+  "version": "1.0.0",
+  "description": "API server for face detection App",
+  "main": "script.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "keywords": [
+    "API",
+    "server"
+  ],
+  "author": "Priyanshu tiwari",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
